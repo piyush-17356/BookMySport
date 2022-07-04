@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:id="@+id/list_parent_layout">
+
+    <Button
+        android:id="@+id/Sport_List_Name"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:fontFamily="@font/alegreya_sans_sc"
+        android:gravity="center|start"
+        android:paddingStart="30dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:shadowColor="#030000"
+        android:shadowDx="3.0"
+        android:shadowDy="2.0"
+        android:shadowRadius="4.0"
+        android:text="@string/Sample"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="33sp"
+        android:textStyle="bold">
+
+    </Button>
+</RelativeLayout>

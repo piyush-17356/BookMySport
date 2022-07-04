@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GuardActivity"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/alegreya_sans_sc"
+        android:gravity="center"
+        android:text="Guard View"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/guard_refreshbtn"
+        android:fontFamily="@font/alegreya_sans_sc"
+        android:textSize="25dp"
+        android:text="Refresh"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_guard"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="0px"
+        android:layout_weight="1">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>

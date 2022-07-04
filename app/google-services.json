@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1041562615058",
+    "firebase_url": "https://book-my-sport-6a098.firebaseio.com",
+    "project_id": "book-my-sport-6a098",
+    "storage_bucket": "book-my-sport-6a098.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1041562615058:android:2e6f78d1266fed48a087cb",
+        "android_client_info": {
+          "package_name": "com.iiitd.bookmysport"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1041562615058-fqgjcaq5c1d0s5k11f0rllh818rkhjtt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.iiitd.bookmysport",
+            "certificate_hash": "c142d593fb8ea4c5de307164d6a0983890d2f477"
+          }
+        },
+        {
+          "client_id": "1041562615058-lb1ql8akd8f7st3sj5akvlhjmgrl9rob.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDk6_LddbgbAJyZCueOPrdVeitXIXyYvS4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1041562615058-lb1ql8akd8f7st3sj5akvlhjmgrl9rob.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
